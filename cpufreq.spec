@@ -10,7 +10,6 @@ Source0: cpufreq.init
 Source1: cpufreq.sysconfig
 License: GPL
 Group: System/Servers
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
 BuildArch: noarch
