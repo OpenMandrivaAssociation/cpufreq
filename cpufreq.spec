@@ -1,6 +1,6 @@
 %define name cpufreq
 %define version 1.0
-%define release %mkrel 28
+%define release %mkrel 29
 
 Summary: An initscript to set CPU frequency settings
 Name: %{name}
