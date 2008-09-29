@@ -26,7 +26,7 @@ cpufreq is a simple initscript to set CPU frequency settings.
 
 %install
 rm -rf %{buildroot}
-mkdir -p  %{buildroot/%_initrddir %{buildroot}%_sysconfdir/sysconfig
+mkdir -p  %{buildroot}%_initrddir %{buildroot}%_sysconfdir/sysconfig
 install -D -m755 %{SOURCE0} %{buildroot}%_initrddir/%{name}
 install -D -m644 %{SOURCE1} %{buildroot}%_sysconfdir/sysconfig/%{name}
 
