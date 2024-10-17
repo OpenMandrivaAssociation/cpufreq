@@ -4,7 +4,7 @@ Version:	2.0
 Release:	%mkrel 1
 License:	GPL
 Group:		System/Servers
-Url:		http://cvs.mandriva.com/cgi-bin/cvsweb.cgi/SPECS/cpufreq/
+Url:		https://cvs.mandriva.com/cgi-bin/cvsweb.cgi/SPECS/cpufreq/
 Source0:	%{name}-%{version}.tar.xz
 Requires(pre):	rpm-helper
 Requires(postun):	rpm-helper
