@@ -1,7 +1,7 @@
 Summary:	An initscript to set CPU frequency settings
 Name:		cpufreq
 Version:	2.0
-Release:	%mkrel 1
+Release:	2
 License:	GPL
 Group:		System/Servers
 Url:		https://cvs.mandriva.com/cgi-bin/cvsweb.cgi/SPECS/cpufreq/
